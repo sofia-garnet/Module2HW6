@@ -6,7 +6,8 @@ namespace Module2HW6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var appStarter = new AppStarter();
+            appStarter.Run();
         }
     }
 }
